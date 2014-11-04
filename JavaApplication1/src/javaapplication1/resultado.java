@@ -19,7 +19,7 @@ public class resultado {
      */
     public static void main(String[] args) {
     obtenerDatos nombre=new obtenerDatos("arturo");
-    obtenerDatos edad=new obtenerDatos("23");
+    obtenerDatos edad=new obtenerDatos(23);
     System.out.println("el nombre del cliente es "+nombre.getNombre());
     System.out.println("años de edad del cliente"+edad.getEdad());
     
